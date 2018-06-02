@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+$white: #fff;
+$blue: #55ACEE;
+$cursor: pointer;
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  color: $white;
+  background-color: $blue;
+}
