@@ -4,7 +4,42 @@
   box-sizing: border-box; }
 
 body {
+  margin: 0;
+  padding: 0;
   color: #fff;
-  background-color: #55ACEE; }
+  background-color: #55ACEE;
+  text-align: center; }
+
+button {
+  color: #fff;
+  background-color: #55ACEE;
+  cursor: pointer;
+  font-size: 20px;
+  border: 1px solid rgba(225, 225, 225, 0.3);
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px 50px; }
+  button:hover {
+    background-color: #4283b2; }
+
+input {
+  font-size: 20px;
+  border: 1px solid rgba(225, 225, 225, 0.3);
+  font-weight: 300;
+  border-radius: 5px;
+  padding: 10px 50px; }
+
+ul {
+  list-style-type: none; }
+  ul li {
+    font-size: 20px; }
+
+h1 {
+  font-weight: 400;
+  font-size: 40px; }
+
+h2 {
+  font-weight: 400;
+  font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
